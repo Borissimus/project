@@ -1,0 +1,13 @@
+/*
+filename task01.c, author Borissimus, tool emacs25(GIU), OS Linux (Ubuntu18.04);
+*/
+
+#include <stdio.h>
+
+int main(void){
+    int num = 0;
+    printf("Please, type an integer number then press key \'Enter\'\n\r");
+    scanf("%d",&num);
+    printf("%d\n\r", num * num);
+    return 0;
+}
