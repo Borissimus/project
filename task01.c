@@ -14,8 +14,8 @@ int main(void){
 
 /*
 formulas:
-Uo = Ui * R1 / (R2 + R1);
-Ui = Uo*(R2 + R1) / R1;
-R1 = 
-R2 = 
+Uo = Ui*R1/(R2 + R1);
+Ui = Uo*(R2 + R1)/R1;
+R1 = Uo*R2/(Ui - Uo);
+R2 = R1*(Ui - Uo)/Uo;
 */
